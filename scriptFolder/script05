@@ -1,0 +1,25 @@
+#!/bin/bash
+
+user=admin
+
+if grep $user /etc/passwd
+
+then
+
+echo "The user $user Exists"
+
+fi
+
+
+
+
+user=likegeeks
+
+if grep $user /etc/passwd
+
+then
+
+echo "The user $user Exists"
+
+fi
+
